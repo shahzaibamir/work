@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(92, 92, 255);
+            margin: 30px;
+            background-image: url(https://cdn.pixabay.com/photo/2020/10/19/01/35/sea-5666471_960_720.jpg);
+            border-radius: 20px;
+            border: 3px solid black;
+        }
+        .box1:hover{
+            transform: scale(2);
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(150, 96, 201);
+            margin: 30px;
+            transition: 1s;
+            background-image: url(https://cdn.pixabay.com/photo/2019/09/02/10/34/summer-4446978_960_720.jpg);
+            border-radius: 20px;
+            border: 3px solid black;
+        }
+        .box2:hover{
+            transform: rotate(100deg);
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            margin: 30px;
+            transition: 1s;
+            background-image: url(https://cdn.pixabay.com/photo/2015/10/11/06/43/sunrise-981819_960_720.jpg);
+            border-radius: 20px;
+            border: 3px solid black;
+        }
+        .box3:hover{
+            transform: skew(20deg);
+        }
+        h1{
+            justify-content: center;
+            font-size: 40px;
+            font-style: italic;
+            text-shadow: 10px 3px 10px burlywood;
+        }
+        h1:hover{
+            transition-duration: 30px;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>transform</h1>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+
+    </div>
+    
+</body>
+</html>

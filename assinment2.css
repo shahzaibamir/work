@@ -1,0 +1,182 @@
+body{
+    /* background: rgba(0, 0, 0, 0.795) url(https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg);width: 100%; height: 100px; background-repeat: no-repeat;background-size: cover; */
+    overflow-x: hidden;
+    /* background-blend-mode: darken;  */
+    background-color:rgba(255, 0, 0, 0.486);
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 10px;
+    /* border: 3px solid rgba(0, 0, 0, 0.247); */
+    box-shadow: 0px 0px 100px 3px rgba(77, 1, 77, 0.562);
+   background: linear-gradient(to right,rgba(0, 0, 0, 0.384),rgba(100, 1, 100, 0.568),rgba(0, 0, 0, 0.37))
+}
+#in{
+    margin-right: 300px;
+}
+#out{
+    margin-left: 50px;
+}
+#do{
+    margin-left: 300px;
+}
+.nav{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Q:hover{
+    color:gold;
+}
+.Q{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration:underline black ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 26, 255, 0.767);
+    text-shadow: 20px 13px 4px rgba(0, 0, 0, 0.397);
+    padding-top: 30px;
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+
+
+
+.main3{
+    height: 900px;
+    width: 1400px;
+    margin-left: -40px;
+    background-color: rgba(245, 245, 245, 0.356);
+   margin-top: -25px;
+   margin-bottom: -40px;
+   padding-bottom: 100px;
+}
+.iphone{
+   display: flex;
+   justify-content: center;
+    
+   
+}
+
+.box{
+   height: 380px;
+   width: 230px;
+   background-color:rgba(255, 255, 255, 0.568);
+   border: 3px solid black;
+   margin-top: 30px;
+   margin-left: 60px;
+   margin-bottom: 20px;
+  border-radius: 35px;   
+  box-shadow: 0px 0px 30px 15px black;
+  transition: 0.5s;
+}
+.box:hover{
+    transform: scale(1.2);
+    background-color: snow;
+}
+.iphone2{
+   display: flex;
+   justify-content: center;
+}
+
+
+#i1{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@media  (max-width:700px){
+    #i1{
+        height: 100px;
+        background-color: blue;
+    }
+}
+
+#i2{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+#i3{
+    position: relative;
+    right: 15px;
+    top: -5px;
+    margin-bottom: -25px;
+}
+#i4{
+    position: relative;
+    right: 45px;
+    margin-bottom: 10px;
+    
+}
+
+#i5{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+#i6{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#i7{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.qqq{
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+}
+
+.qqq3{
+    color: rgb(0, 0, 0);
+    margin-left:50px;
+}
+.www{
+    color: rgb(0, 0, 0);
+    margin-left: 77px;
+}
+.eee{
+    color: black;
+   background-color: rgb(255, 255, 255);
+   height: 25px;
+   width: 50px;
+   border-radius: 20px;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.eee:hover{
+    color: rgb(255, 238, 0);
+    font-weight: bolder;
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.473);
+}
+.money{
+    color: rgb(0, 4, 255);
+}

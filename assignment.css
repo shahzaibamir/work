@@ -1,0 +1,161 @@
+body{
+    background: rgba(0, 0, 0, 0.795) url(https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg);width: 100%; height: 100px; background-repeat: no-repeat;background-size: cover;
+    overflow-x: hidden;
+    background-blend-mode: darken; 
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding: 10px;
+    /* border: 3px solid rgba(0, 0, 0, 0.247); */
+    box-shadow: 0px 0px 100px 3px rgba(77, 1, 77, 0.562);
+   background: linear-gradient(to right,rgba(255, 255, 255, 0.212),rgba(100, 1, 100, 0.568),rgba(255, 255, 255, 0.274))
+}
+#in{
+    margin-right: 300px;
+}
+#out{
+    margin-left: 50px;
+}
+#do{
+    margin-left: 300px;
+}
+.nav{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Q:hover{
+    color:gold;
+}
+.Q{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.main2{
+    margin-top: 120px;
+}
+
+
+.img{
+    display: inline-block;
+    border-radius: 50px;
+    padding-top: 20px;
+    box-shadow: 0px -20px 500px 50px rgb(255, 231, 250); 
+    position: relative;
+    left: 580px;
+    top: -30px;
+    
+    background-color: rgba(20, 0, 20, 0.514);
+    animation-name: move;
+    animation-duration: 2s;
+   
+    
+ }
+ @keyframes move{
+      from{
+        top: 0;
+        left: 0;
+      }
+
+      to{
+        top: -30px;
+        left:579px;
+      }
+}
+
+ .img:hover{
+    transform: scale(1.1);
+    background-color:rgba(9, 106, 202, 0.637);
+ }
+ .int:hover{
+    transform: scale(0.8);
+    color: dodgerblue;
+ }
+.int{
+    color: gold;
+    /* display: flex;
+    justify-content: center; */
+    display: inline-block;
+    position: relative;
+    box-shadow: 0px 0px 150px 50px  rgba(85, 0, 67, 0.562);
+    left: 310px;
+    top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    animation-name: doma;
+    animation-duration: 2s;
+       
+ }
+ @keyframes doma {
+      from{
+        top: 0;
+        right:0 ;
+      }
+
+      to{
+        top: -30px;
+        right:1079px;
+      }
+}
+
+.ints:hover{
+    color: rgba(30, 143, 255, 0.342);
+}
+
+.ints{
+    color: rgb(255, 255, 255);
+    /* display: flex;
+    justify-content: center; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 40px;
+    position: relative;
+    left: 480px;
+    animation-name: doma;
+    animation-duration: 2s;
+       
+ }
+ @keyframes doma {
+      from{
+        top: 0;
+        right:0 ;
+      }
+
+      to{
+        top: -30px;
+        right:1079px;
+      }
+}
+
+
+
+
+.h1{
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 30px;
+     background-color: gold ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
